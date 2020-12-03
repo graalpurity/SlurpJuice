@@ -11,3 +11,6 @@ You can make a pull request on this repository, or you can join our discord to c
 
 # Discord
 Our discord is for people who want to contribute, want to exploit together, or just want to have fun in a community with others like them, our discord is [here](https://discord.gg/K8VQZutWkA)
+
+# Contributions
+1. [Null 774](https://github.com/null774) -helped with some class stuff on [PyCraft](https://github.com/graalpurity/PyCraft)
