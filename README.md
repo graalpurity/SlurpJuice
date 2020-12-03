@@ -14,3 +14,7 @@ Our [discord](https://discord.gg/K8VQZutWkA) is for people who want to contribut
 
 # Contributions
 1. [Null 774](https://github.com/null774) -helped with some class stuff on [PyCraft](https://github.com/graalpurity/PyCraft)
+
+# Downlods
+* Download the source, open it in Visual Studio and build the project
+* Download the compiled program [here](https://www.youtube.com/watch?v=HPk-VhRjNI8&list=PL3KnTfyhrIlcudeMemKd6rZFGDWyK23vx&ab_channel=Baj%C3%A0Blast)
