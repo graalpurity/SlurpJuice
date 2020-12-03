@@ -7,7 +7,7 @@ Slurp Juice is a C# roblox lua executor using WeAreDEvsAPI
 3. For C# developers, the code base is mostly very clean, use classes for most things to keep the main source file very short and readable
 
 # Contributing
-You can make a pull request on this repository, or you can join our discord to contribute in the coding channels
+You can make a pull request on this repository, or you can join our [discord](https://discord.gg/K8VQZutWkA) to contribute in the coding channels
 
 # Discord
 Our [discord](https://discord.gg/K8VQZutWkA) is for people who want to contribute, want to exploit together, or just want to have fun in a community with others like them
