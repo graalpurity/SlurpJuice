@@ -25,7 +25,7 @@ namespace Slurp_Juice.Handler
             [return: MarshalAs(UnmanagedType.Bool)]
             public static extern bool AllocConsole();
 
-            public static void Welcome()
+        public static void Welcome()
         {
             Console.Title = $"Slurp Juice {Slurp.Version} Debug Console";
             Console.WriteLine($"Welcome to Slurp Juice {Slurp.Version}");
