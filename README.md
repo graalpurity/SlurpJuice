@@ -17,4 +17,5 @@ Our [discord](https://discord.gg/K8VQZutWkA) is for people who want to contribut
 
 # Downlods
 * Download the source, open it in Visual Studio and build the project
-* Download the compiled program [here](https://www.youtube.com/watch?v=HPk-VhRjNI8&list=PL3KnTfyhrIlcudeMemKd6rZFGDWyK23vx&ab_channel=Baj%C3%A0Blast)
+* Download the zicompiled program (Zip) [here](https://www.youtube.com/watch?v=HPk-VhRjNI8&list=PL3KnTfyhrIlcudeMemKd6rZFGDWyK23vx&ab_channel=Baj%C3%A0Blast)
+* Download the zicompiled program (Installer) [here](https://www.youtube.com/watch?v=HPk-VhRjNI8&list=PL3KnTfyhrIlcudeMemKd6rZFGDWyK23vx&ab_channel=Baj%C3%A0Blast)
