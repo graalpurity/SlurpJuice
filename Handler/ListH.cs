@@ -12,12 +12,6 @@ namespace Slurp_Juice.Handler
 {
     public static class ListH
     {
-        public static void Clear()
-        {
-            Slurp form = new Slurp();
-            form.scriptsList.Items.Clear();
-        }
-
         public static void PopulateListBox(ListBox lsb, string Folder, string FileType)
         {
             DirectoryInfo dinfo = new DirectoryInfo(Folder);
@@ -26,6 +20,12 @@ namespace Slurp_Juice.Handler
             {
                 lsb.Items.Add(file.Name);
             }
+        }
+
+        public static void SetEditorText()
+        {
+            Slurp form = new Slurp();
+            form.webBrowser1.DocumentText = File.ReadAllText($"C:/Visual Studio Projects/Slurp Juice/Lua{form.scriptsList.SelectedItem}");
         }
     }
 }

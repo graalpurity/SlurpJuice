@@ -153,7 +153,7 @@ namespace Slurp_Juice.Handler
 
             public static void ShutDown()
             {
-                client.Dispose();
+                client.Deinitialize();
             }
 
             public static void DevStatus()
@@ -162,6 +162,52 @@ namespace Slurp_Juice.Handler
                 {
                     Details = $"Slurp Juice {Slurp.Version} | Dev Status",
                     State = $"Woke hates being sober",
+                    Assets = new Assets()
+                    {
+                        LargeImageKey = "slurpjuice",
+                        LargeImageText = "Slurp Juice open source",
+                    }
+                });
+            }
+
+            public static void Settings()
+            {
+                client.SetPresence(new RichPresence()
+                {
+                    Details = $"Slurp Juice {Slurp.Version} | Settings",
+                    State = $"Viewing settings",
+                    Assets = new Assets()
+                    {
+                        LargeImageKey = "slurpjuice",
+                        LargeImageText = "Slurp Juice open source",
+                    }
+                });
+            }
+
+            public static void SettingsStart() //this is for restarting the discord RPC on the settings page
+            {
+                if (!client.IsInitialized)
+                {
+                    client.Initialize();
+                }
+                client.SetPresence(new RichPresence()
+                {
+                    Details = $"Slurp Juice {Slurp.Version} | Settings",
+                    State = $"Viewing settings",
+                    Assets = new Assets()
+                    {
+                        LargeImageKey = "slurpjuice",
+                        LargeImageText = "Slurp Juice open source",
+                    }
+                });
+            }
+
+            public static void DevSettings()
+            {
+                client.SetPresence(new RichPresence()
+                {
+                    Details = $"Slurp Juice {Slurp.Version} | Dev Settings",
+                    State = $"Viewing dev settings",
                     Assets = new Assets()
                     {
                         LargeImageKey = "slurpjuice",

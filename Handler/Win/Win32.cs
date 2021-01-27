@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Slurp_Juice.Handler
 {
@@ -17,7 +18,35 @@ namespace Slurp_Juice.Handler
         [DllImport("user32.dll")]
         public static extern bool ReleaseCapture();
 
-      
+        public static void Directory()
+        {
+            listFilesInDirectory(@"C:\Visual Studio Projects\Slurp Juice\Lua");
+        }
+
+        public static void listFilesInDirectory(string WorkingDirectory)
+        {
+            string[] filePaths = System.IO.Directory.GetFiles(WorkingDirectory);
+
+            foreach (string filePath in filePaths)
+            {
+                Slurp form = new Slurp();
+            }
+        }
+
+        public static void Directory2()
+        {
+            listFilesInDirectory(@"C:\Visual Studio Projects\Slurp Juice\Lua");
+        }
+
+        public static void listFilesInDirectory2(string WorkingDirectory)
+        {
+            string[] filePaths = System.IO.Directory.GetFiles(WorkingDirectory);
+
+            foreach (string filePath in filePaths)
+            {
+                Console.WriteLine(filePaths);
+            }
+        }
 
         public static class ConsoleH
         {
@@ -43,9 +72,14 @@ namespace Slurp_Juice.Handler
 
         public static void test()
         {
+           
+        }
+
+        public static void hide()
+        {
+             Console.WriteLine("The console cannot be hidden yet");
+        }
 
         }
-        }
-       
     }
 }
