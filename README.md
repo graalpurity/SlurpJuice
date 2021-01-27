@@ -1,5 +1,5 @@
 # Slurp Juice
-Slurp Juice is a C# roblox lua executor using WeAreDEvsAPI
+Slurp Juice is a C# roblox lua executor using ShadowCheats
 
 # Why choose Slurp Juice?
 1. Alot of free lua executors have viruses, but since this is open source there's no way for it to have a virus
